@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nachiket Takte | Actuarial Studies Student</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+/* ===== Yellow marker = text you still need to edit. Delete this block when done. ===== */
+.edit { background: #FFF200; color: #000 !important; outline: 2px dashed #E08A00; }
+/* ===== end of yellow marker ===== */
+
+:root {
+  --navy: #0A192F;
+  --teal: #64FFDA;
+  --blue: #007ACC;
+  --bg: #F5F8FB;
+  --text: #1B2A41;
+  --muted: #5B6B82;
+  --line: #DCE4EE;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+body { margin: 0; font-family: 'Inter', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+.wrap { max-width: 960px; margin: 0 auto; padding: 0 24px; }
+section { padding: 64px 0 8px; }
+h2 { color: var(--navy); font-size: 1.8rem; letter-spacing: -0.02em; margin: 0 0 20px; }
+
+/* Navigation */
+nav { position: sticky; top: 0; z-index: 10; background: var(--navy); }
+nav .wrap { display: flex; justify-content: space-between; align-items: center; height: 60px; }
+nav a { color: #CBD6E6; text-decoration: none; margin-left: 22px; font-size: .92rem; font-weight: 500; }
+nav a:hover { color: var(--teal); }
+nav .brand { color: #fff; font-weight: 800; margin: 0; }
+
+/* Hero */
+.hero { background: var(--navy); color: #fff; padding: 90px 0 80px; }
+.hero h1 { font-size: clamp(2.4rem, 7vw, 4rem); letter-spacing: -0.03em; line-height: 1.05; margin: 0 0 12px; }
+.hero .title { color: var(--teal); font-weight: 600; margin: 0 0 14px; }
+.hero .about { color: #A8B8D0; max-width: 50ch; margin: 0 0 28px; }
+.hero-links a { color: #CBD6E6; margin-right: 20px; }
+.hero-links a:hover { color: var(--teal); }
+
+/* Exams */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+.exam { background: #fff; border: 1px solid var(--line); border-left: 5px solid #0E8A5F; border-radius: 10px; padding: 16px; }
+.exam .code { font-size: 1.3rem; font-weight: 800; color: var(--navy); }
+.exam .meta { display: flex; justify-content: space-between; font-size: .82rem; margin-top: 8px; }
+.exam .society { font-weight: 700; color: var(--blue); }
+.exam .status { color: #0E8A5F; font-weight: 600; }
+
+/* Education */
+.card { background: #fff; border: 1px solid var(--line); border-radius: 12px; padding: 26px; }
+.card .school { font-size: 1.25rem; font-weight: 700; color: var(--navy); }
+.card .degree { color: var(--muted); }
+
+/* Skills */
+.pills { display: flex; flex-wrap: wrap; gap: 10px; list-style: none; padding: 0; margin: 0; }
+.pills li { background: #E9F2FA; color: #0B4F82; padding: 7px 18px; border-radius: 99px; font-weight: 600; }
+
+/* Footer */
+footer { margin-top: 64px; background: var(--navy); color: #A8B8D0; padding: 28px 0; font-size: .9rem; }
+footer .wrap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; }
+footer a { color: #CBD6E6; margin-left: 16px; }
+footer a:hover { color: var(--teal); }
+
+@media (max-width: 600px) { nav a:not(.brand) { margin-left: 14px; font-size: .85rem; } }
+</style>
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <div class="wrap">
+    <a class="brand" href="#top">NT</a>
+    <div>
+      <a href="#exams">Exams</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <h1>Nachiket Takte</h1>
+    <p class="title">Actuarial Studies Student</p>
+    <!Currently building toward an actuarial career>
+    <p class="about"><span class="edit">Write a short line about yourself and your career goals here.</span></p>
+    <div class="hero-links">
+      <a href="mailto:nachiket.noni@gmail.com"><span class="edit">nachiket.noni@gmail.com</span></a>
+      <a href="https://www.linkedin.com/in/nachiket-takte-54ba13360?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener"><span class="edit">LinkedIn</span></a>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<!-- EXAMS PASSED (IAI) -->
+<section id="exams">
+  <h2>Actuarial exams passed</h2>
+  <div class="grid">
+    <div class="exam"><div class="code">CS1</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+    <div class="exam"><div class="code">CM1</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+    <div class="exam"><div class="code">CM2</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+    <div class="exam"><div class="code">CB1</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+    <div class="exam"><div class="code">CB2</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+    <div class="exam"><div class="code">CB3</div><div class="meta"><span class="society">IAI</span><span class="status">Passed</span></div></div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section id="education">
+  <h2>Education</h2>
+  <div class="card">
+    <div class="school">R.A. Podar College of Commerce and Economics</div>
+    <div class="degree">B.Com (Actuarial Studies), currently pursuing</div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical skills</h2>
+  <ul class="pills">
+    <li>R</li>
+    <li>Excel</li>
+  </ul>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <span>&copy; <span id="year"></span> Nachiket Takte. All rights reserved.</span>
+    <span>
+      
+      <a href="mailto:nachiket.noni@gmail.com">Email</a>
+      <a href="https://www.linkedin.com/in/nachiket-takte-54ba13360?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener">LinkedIn</a>
+    </span>
+  </div>
+</footer>
+
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
